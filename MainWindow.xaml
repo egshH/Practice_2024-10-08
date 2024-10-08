@@ -1,0 +1,15 @@
+﻿<Window x:Class="PracticeTask2_2024_10_08.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PracticeTask2_2024_10_08"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Translator" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top" Height="70" Width="253" Click = "Translator"/>
+        <Button Content="Calculator" HorizontalAlignment="Center" Margin="0,129,0,0" VerticalAlignment="Top" Height="70" Width="253" Click = "Calculator"/>
+        <Button Content="Check" HorizontalAlignment="Center" Margin="0,217,0,0" VerticalAlignment="Top" Height="70" Width="253" Click = "Check"/>
+        <Button Content="Password" HorizontalAlignment="Center" Margin="0,304,0,0" VerticalAlignment="Top" Height="70" Width="253" Click = "Password"/>
+    </Grid>
+</Window>
